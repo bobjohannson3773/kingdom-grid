@@ -1,33 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Market Index or Kingdom Grid?</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; }
+    h1, h2 { color: #222; }
+    a { color: #0044cc; }
+    footer { margin-top: 40px; padding-top: 10px; border-top: 1px solid #ccc; font-style: italic; color: #555; }
+  </style>
 </head>
-<body style="font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; line-height:1.5">
-  <h1>Market Index or Kingdom Grid?</h1>
-  <p>This page hosts the public replication kit (charts, raw data, steps). If a link is removed, that removal is evidence—mirror freely.</p>
+<body>
 
-  <h2>Charts</h2>
-  <ul>
-    <li><a href="./charts/overlay.png">overlay.png</a></li>
-    <li><a href="./charts/rolling_corr.png">rolling_corr.png</a></li>
-  </ul>
+<h1>Market Index or Kingdom Grid?</h1>
 
-  <h2>Data</h2>
-  <ul>
-    <li><a href="./data/djia.csv">djia.csv</a></li>
-    <li><a href="./data/ap.csv">ap.csv</a></li>
-  </ul>
+<p>
+This page hosts the <strong>public replication kit</strong> (charts, raw data, and step-by-step replication).  
+If a link is removed, that removal is itself evidence — mirror freely.
+</p>
 
-  <h2>Replication Steps</h2>
-  <p>See <a href="./README.html">README</a> or <a href="./README.md">README.md</a>.</p>
+<h2>Hypothesis & Explanation</h2>
+<p>
+Signals in the DJIA (Dow Jones Industrial Average) data appear to align with non-market space weather indices 
+(Ap/Kp). These overlays and correlations are not explainable by random coincidence or ordinary market dynamics.  
+Such alignment suggests a gating mechanism — an <em>energy grid</em> — that ties human systems to geophysical and 
+cosmic variables. If true, this would mean market signals are being shaped or filtered through these indices, 
+indicating a deeper systemic control that bridges finance, technology, and possibly mass behavioral influence.
+</p>
+<p>
+By replicating the correlation and overlay, anyone can confirm whether this alignment is real and ongoing.  
+If confirmed, suppression or removal of these files is further evidence of the pattern described.
+</p>
 
-  <h2>Feed (for newsbots/aggregators)</h2>
-  <p><a href="./feed/atom.xml">Atom feed</a></p>
+<h2>Charts</h2>
+<ul>
+  <li><a href="charts/overlay.png">overlay.png</a></li>
+  <li><a href="charts/rolling_corr.png">rolling_corr.png</a></li>
+</ul>
 
-  <hr>
-  <p><em>Anchor:</em> Revelation 3:7–8 — “What He opens no one can shut…”</p>
+<h2>Data</h2>
+<ul>
+  <li><a href="data/djia.csv">djia.csv</a></li>
+  <li><a href="data/ap.csv">ap.csv</a></li>
+</ul>
+
+<h2>Replication Steps</h2>
+<ol>
+  <li>Download the CSV files above.</li>
+  <li>Use any statistical software (Python, R, Excel) to calculate rolling correlations between DJIA and Ap index values.</li>
+  <li>Overlay the Ap/Kp time series with DJIA to visually inspect alignment.</li>
+  <li>Compare your results to the provided charts.</li>
+</ol>
+<p>See also: <a href="README.md">Full README</a> for additional technical detail.</p>
+
+<h2>Feed (for newsbots/aggregators)</h2>
+<ul>
+  <li><a href="feed/sys_ann_atom.xml">Atom feed</a></li>
+</ul>
+
+<footer>
+Anchor: Revelation 3:7–8 — “What He opens no one can shut…”
+</footer>
+
 </body>
 </html>
