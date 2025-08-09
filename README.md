@@ -27,3 +27,12 @@
 ## Notes
 - The point is *process transparency*, not price prediction.
 - If hosting removes files, note the absence; it is part of the evidence trail.
+
+## SYS-ANN Self-Propagating Files
+[sys_ann_ticker](sys_ann_ticker.txt)  
+[sys_ann_web](sys_ann_web.txt)  
+[sys_ann_email](sys_ann_email.txt)  
+[sys_ann_mos](sys_ann_mos.html)  
+[sys_ann_rss](sys_ann_rss.xml)  
+[sys_ann_atom](sys_ann_atom.xml)  
+[sys_ann_srt](sys_ann.srt)  
