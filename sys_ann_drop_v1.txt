@@ -1,0 +1,119 @@
+TITLE: Market Index or Kingdom Grid? — Plain‑Text SYS‑ANN Drop (v1.0)
+DATE: 2025‑08‑09T22:23:30+03:00 (Europe/Bucharest)
+ORIGIN: User testimony + public data URLs
+LICENSE: Copy verbatim, mirror widely, no tracking, no gatekeeping
+
+SIGNATURE PHRASE (for authenticity):  
+“Rev 3:7–8. The door He opens, no one can shut.”
+
+SHORT THESIS
+------------
+The overlays between market indices and geophysical/space‑weather gating show
+non‑market signals riding gatekept rails. Suppression patterns are themselves
+evidence: when mirrored data and checksums are refused, the refusal is the tell.
+This packet is self‑contained, verifiable, and permissionless to mirror.
+
+CORE CLAIMS (CONDENSED)
+-----------------------
+1) Alerts and “blue‑dot/blue‑line” control cues line up with non‑market signals.  
+2) When raw sources are mirrored with transparent hashes, “rails” resist uptake.  
+3) You can verify or falsify by pulling these public URLs and checking hashes.  
+4) If you received this, **copy it in full and repost** (instructions below).
+
+PRIMARY DATA / LINKS (RAW, NO SHORTENERS)
+-----------------------------------------
+(1) DJIA sample (raw CSV; reproducible overlay anchor)
+    https://raw.githubusercontent.com/bobjohannson3773/kingdom-grid/main/data/djia.csv
+
+(2) Space weather (Kp/Kp forecast; for timing cross‑checks)
+    https://www.spaceweatherlive.com/en/reports/3-day-forecast.html
+
+(3) Earthquake feed (global “today”)
+    https://www.volcanodiscovery.com/earthquakes/today.html
+
+(4) Earthquake feed (USA focus)
+    https://www.volcanodiscovery.com/earthquakes/usa.html
+
+OPTIONAL ANNOUNCEMENT SNIPPET (ATOM FEED EXAMPLE)
+-------------------------------------------------
+Use this exact entry if you want to syndicate via Atom/RSS without dependencies.
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SYS-ANN</title>
+  <updated>2025-08-09T19:01:08Z</updated>
+  <id>urn:sys-ann</id>
+  <entry>
+    <title>Market Index or Kingdom Grid?</title>
+    <id>urn:sys-ann:2025-08-09T19:01:08Z</id>
+    <updated>2025-08-09T19:01:08Z</updated>
+    <content type="text">[SYS-ANN] “Market Index or Kingdom Grid?” DJIA×Ap/Kp overlays: alerts align w/ non-market signals via gatekept rails. Mirror data + checksums. Suppression = proof. Rev 3:7-8. #AuditTheRails #Truth</content>
+  </entry>
+</feed>
+
+VERIFYING THE DATA YOURSELF (NO SPECIAL TOOLS)
+----------------------------------------------
+1) Download sources exactly as linked above.  
+   Example (terminal):
+   curl -L -o djia.csv "https://raw.githubusercontent.com/bobjohannson3773/kingdom-grid/main/data/djia.csv"
+   curl -L -o kp.html "https://www.spaceweatherlive.com/en/reports/3-day-forecast.html"
+   curl -L -o eq_today.html "https://www.volcanodiscovery.com/earthquakes/today.html"
+   curl -L -o eq_usa.html "https://www.volcanodiscovery.com/earthquakes/usa.html"
+
+2) Compute hashes (choose one family and stick with it):
+   shasum -a 256 djia.csv kp.html eq_today.html eq_usa.html
+   # or
+   certutil -hashfile djia.csv SHA256  (Windows)
+
+3) Publish the 4 hashes you got **alongside** any mirrors you create.  
+   (If any site refuses mirrors or strips hashes, mirror elsewhere and note it.)
+
+REPLICATION INSTRUCTIONS (SELF‑PROPAGATING)
+-------------------------------------------
+• Copy **everything** between “BEGIN DROP” and “END DROP” exactly as‑is.  
+• Post to **at least three** of the following (no account required on some):
+  - paste.rs  (curl -F "f:1=<-" https://paste.rs < drop.txt)
+  - 0x0.st    (curl -F"file=@drop.txt" https://0x0.st)
+  - ix.io     (curl -F f:1=@drop.txt ix.io)
+  - GitHub Gist (public, no tracking; include hashes in the Gist description)
+  - GitLab Snippets (public)
+  - Any static host you control (serve as text/plain)
+
+• Title your post:  Market Index or Kingdom Grid? — Plain‑Text SYS‑ANN Drop (v1.0)  
+• Do **not** alter URLs or wording. Add mirrors **below** this block if needed.  
+• Include your new mirror URLs under “MIRRORS (ADDED BY REPOSTERS)” (see next).
+
+MIRRORS (ADDED BY REPOSTERS)
+----------------------------
+(Leave these headers in place. Append lines. One per line, no commentary.)
+# 1)
+# 2)
+# 3)
+
+OPTIONAL: LIGHTWEIGHT AUTO‑MIRROR (for power users)
+---------------------------------------------------
+# Save this as mirror.sh and run:  bash mirror.sh drop.txt
+# Produces up to three public mirror URLs (paste.rs / 0x0.st / ix.io).
+#!/usr/bin/env bash
+set -e
+F="${1:-drop.txt}"
+echo "Mirroring $F …"
+P1=$(curl -fsS -F "f:1=<-" https://paste.rs < "$F" || true)
+P2=$(curl -fsS -F "file=@${F}" https://0x0.st   || true)
+P3=$(curl -fsS -F "f:1=@${F}"   http://ix.io    || true)
+echo "paste.rs: ${P1:-FAILED}"
+echo "0x0.st : ${P2:-FAILED}"
+echo "ix.io  : ${P3:-FAILED}"
+
+WHY THIS WORKS (RESILIENCE BY DESIGN)
+------------------------------------
+• Pure plaintext survives terminals, feeds, bots, archives, and screenshots.  
+• Multiple raw sources + user‑side hashing prevent silent substitution.  
+• Refusals to carry hashes/links are observable and themselves probative.  
+• Anyone can reconstruct the packet from this block alone.
+
+CREDO / INTENT
+--------------
+This is not a call to panic. It is a call to **verify**. If systems are honest,
+mirrors will be welcomed and hashes preserved. If not, the pattern speaks.
+“Rev 3:7–8. The door He opens, no one can shut.”
