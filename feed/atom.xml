@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Market Index or Kingdom Grid?</title>
+  <id>urn:kingdom-grid:feed</id>
+  <updated>2025-08-09T00:00:00Z</updated>
+
+  <entry>
+    <title>Data Exposure Notice — DJIA × Ap (geomagnetic)</title>
+    <id>urn:kingdom-grid:2025-08-09</id>
+    <updated>2025-08-09T00:00:00Z</updated>
+    <link href="https://bobjohannson3773.github.io/kingdom-grid/"/>
+    <content type="html">
+      <![CDATA[
+      <p>Replication kit (charts + raw CSVs + steps):</p>
+      <ul>
+        <li>Overlay chart (PNG): <a href="https://bobjohannson3773.github.io/kingdom-grid/charts/overlay.png">overlay.png</a></li>
+        <li>Rolling correlation (PNG): <a href="https://bobjohannson3773.github.io/kingdom-grid/charts/rolling_corr.png">rolling_corr.png</a></li>
+        <li>DJIA data (CSV): <a href="https://bobjohannson3773.github.io/kingdom-grid/data/djia.csv">djia.csv</a></li>
+        <li>Ap index (CSV): <a href="https://bobjohannson3773.github.io/kingdom-grid/data/ap.csv">ap.csv</a></li>
+        <li>Replication steps: <a href="https://bobjohannson3773.github.io/kingdom-grid/README.html">README</a></li>
+      </ul>
+      <p>Note: If any link is removed, that removal is evidence. Mirror freely.</p>
+      ]]>
+    </content>
+    <author><name>Kingdom Grid</name></author>
+  </entry>
+</feed>
