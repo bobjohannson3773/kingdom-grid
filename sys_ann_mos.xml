@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mos>
+  <mosID>SYS-ANN</mosID>
+  <ncsID>INGEST</ncsID>
+  <messageID>2025-08-09T18:01:08Z</messageID>
+  <mosExternalMetadata>
+    <mosScope>playout</mosScope>
+    <mosSchema>SYS-ANN-1.0</mosSchema>
+  </mosExternalMetadata>
+  <roStory>
+    <storyID>SYS-ANN-2025-08-09T18:01:08Z</storyID>
+    <storySlug>Market Index or Kingdom Grid?</storySlug>
+    <storyNum>1</storyNum>
+    <mosAbstract>[SYS-ANN] “Market Index or Kingdom Grid?” DJIA×Ap/Kp overlays: alerts align w/ non-market signals via gatekept rails. Mirror data + checksums. Suppression = proof. Rev 3:7-8. #AuditTheRails #Truth</mosAbstract>
+    <storyBody>
+      <p>[SYS-ANN] “Market Index or Kingdom Grid?” DJIA×Ap/Kp overlays: alerts align w/ non-market signals via gatekept rails. Mirror data + checksums. Suppression = proof. Rev 3:7-8. #AuditTheRails #Truth</p>
+    </storyBody>
+  </roStory>
+</mos>
